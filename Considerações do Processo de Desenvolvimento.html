@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Processo de Desenvolvimento</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Processo de Desenvolvimento</h1>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <h5>Habilitar o IIS:</h5>
+                <ul>
+                    <li>Deixar desabilitado o WebDAV.</li>
+                </ul>
+            </li>
+            <li class="list-group-item">
+                <h5>Instalar Asp.NET Core:</h5>
+                <ul>
+                    <li>Instalar o Runtime, SDK e .NET Hosting para compatibilidade com .NET Core.</li>
+                    <li>Verificar a instalação nos Módulos do IIS.</li>
+                </ul>
+            </li>
+            <li class="list-group-item">
+                <h5>Criação do Projeto:</h5>
+                <ul>
+                    <li>Criar um projeto Web API com C# no Visual Studio.</li>
+                    <li>Criar um perfil de publicação no Visual Studio.</li>
+                    <li>Publicar a solução API.</li>
+                </ul>
+            </li>
+            <li class="list-group-item">
+                <h5>Configurações de Acesso:</h5>
+                <ul>
+                    <li>Autorizar o acesso de todos os usuários do Windows à pasta dos arquivos.</li>
+                </ul>
+            </li>
+            <li class="list-group-item">
+                <h5>Configurações do IIS:</h5>
+                <ul>
+                    <li>Adicionar um pool de aplicação (cache dos dados da aplicação).</li>
+                    <li>Adicionar um site no IIS e realizar as configurações necessárias.</li>
+                </ul>
+            </li>
+            <li class="list-group-item">
+                <h5>Configurações do Projeto:</h5>
+                <ul>
+                    <li>Adicionar configurações do Swagger no arquivo <code>Program.cs</code>.</li>
+                    <li>Adicionar páginas HTML de termos de licença e página para contato.</li>
+                    <li>Configurar uma subpasta no IIS para compilar as páginas HTML no pool padrão.</li>
+                </ul>
+            </li>
+            <li class="list-group-item">
+                <h5>Configurações de Banco de Dados:</h5>
+                <ul>
+                    <li>Adicionar a string de conexão no arquivo <code>appsettings.json</code>.</li>
+                    <li>Criar a pasta MODELS para separar as classes de objetos.</li>
+                    <li>Criar a pasta DATA para separar as classes de banco de dados.</li>
+                    <li>Instalar o NuGet da Microsoft.EntityFrameworkCore.</li>
+                    <li>Criar a classe <code>Models/Produto</code> para representar o objeto usado no CRUD.</li>
+                    <li>Criar a classe <code>ApplicationDbContext</code> para definir o contexto de banco de dados ao Entity Framework.</li>
+                    <li>Configurar o arquivo <code>Program.cs</code> para utilizar recursos do Entity Framework com o SQL Server.</li>
+                    <li>Criar um controller de Produto e os endpoints RESTful.</li>
+                    <li>Criar o banco de dados no SQL Server.</li>
+                    <li>Rodar os comandos <code>Add-Migration InitialCreate</code> e <code>Update-Database</code>.</li>
+                    <li>Verificar a tabela criada no banco de dados.</li>
+                    <li>Testar os endpoints com o Swagger inserindo, lendo, atualizando e excluindo dados.</li>
+                    <li>Testar operações na tabela correspondente.</li>
+                    <li>Ajustar a instância do banco de dados para criação de usuário e permissionamento do Pool do IIS para autenticação do Windows.</li>
+                </ul>
+            </li>
+            <li class="list-group-item">
+                <h5>Desenvolvimento do Front-end:</h5>
+                <ul>
+                    <li>Criar um projeto Angular com o terminal PowerShell.</li>
+                    <li>Criar um projeto HTML com Bootstrap e JavaScript/jQuery, realizando requisições na API .NET Core e seus respectivos endpoints para CRUD no banco de dados.</li>
+                </ul>
+            </li>
+            <li class="list-group-item">
+                <h5>Implementação de Autenticação:</h5>
+                <ul>
+                    <li>Implementar autenticação com JWT.</li>
+                    <li>Gerar chave secreta randomicamente com 32 bytes em hexadecimal utilizando Node.js para JWT.</li>
+                    <li>Criar a classe <code>Models/Pessoas</code>.</li>
+                    <li>Rodar os comandos <code>Add-Migration</code> e <code>Update-Database</code>.</li>
+                    <li>Implementar o algoritmo JavaScript/jQuery para realizar o CRUD de Pessoas.</li>
+                    <li>Implementar a lógica de JWT Token para autenticação e autorização no consumo dos endpoints com JavaScript (90% concluído).</li>
+                    <li>Validar os endpoints de Pessoa e Produtos.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

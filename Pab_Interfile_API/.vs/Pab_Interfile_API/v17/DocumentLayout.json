@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\Pab_Interfile_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8565C78C-7576-4552-94BF-0B5F3CF1A13C}|Pab_Interfile_API\\Pab_Interfile_API.csproj|c:\\users\\user\\source\\repos\\pab_interfile_api\\pab_interfile_api\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8565C78C-7576-4552-94BF-0B5F3CF1A13C}|Pab_Interfile_API\\Pab_Interfile_API.csproj|solutionrelative:pab_interfile_api\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8565C78C-7576-4552-94BF-0B5F3CF1A13C}|Pab_Interfile_API\\Pab_Interfile_API.csproj|c:\\users\\user\\source\\repos\\pab_interfile_api\\pab_interfile_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8565C78C-7576-4552-94BF-0B5F3CF1A13C}|Pab_Interfile_API\\Pab_Interfile_API.csproj|solutionrelative:pab_interfile_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8565C78C-7576-4552-94BF-0B5F3CF1A13C}|Pab_Interfile_API\\Pab_Interfile_API.csproj|c:\\users\\user\\source\\repos\\pab_interfile_api\\pab_interfile_api\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8565C78C-7576-4552-94BF-0B5F3CF1A13C}|Pab_Interfile_API\\Pab_Interfile_API.csproj|solutionrelative:pab_interfile_api\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8565C78C-7576-4552-94BF-0B5F3CF1A13C}|Pab_Interfile_API\\Pab_Interfile_API.csproj|c:\\users\\user\\source\\repos\\pab_interfile_api\\pab_interfile_api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8565C78C-7576-4552-94BF-0B5F3CF1A13C}|Pab_Interfile_API\\Pab_Interfile_API.csproj|solutionrelative:pab_interfile_api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8565C78C-7576-4552-94BF-0B5F3CF1A13C}|Pab_Interfile_API\\Pab_Interfile_API.csproj|c:\\users\\user\\source\\repos\\pab_interfile_api\\pab_interfile_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8565C78C-7576-4552-94BF-0B5F3CF1A13C}|Pab_Interfile_API\\Pab_Interfile_API.csproj|solutionrelative:pab_interfile_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Pab_Interfile_API\\Pab_Interfile_API\\appsettings.json",
+              "RelativeDocumentMoniker": "Pab_Interfile_API\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Pab_Interfile_API\\Pab_Interfile_API\\appsettings.json",
+              "RelativeToolTip": "Pab_Interfile_API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-18T03:18:43.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProdutosController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Pab_Interfile_API\\Pab_Interfile_API\\Controllers\\ProdutosController.cs",
+              "RelativeDocumentMoniker": "Pab_Interfile_API\\Controllers\\ProdutosController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Pab_Interfile_API\\Pab_Interfile_API\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "Pab_Interfile_API\\Controllers\\ProdutosController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAwwCoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T03:09:33.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Pab_Interfile_API\\Pab_Interfile_API\\Program.cs",
+              "RelativeDocumentMoniker": "Pab_Interfile_API\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Pab_Interfile_API\\Pab_Interfile_API\\Program.cs",
+              "RelativeToolTip": "Pab_Interfile_API\\Program.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T03:08:07.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Pab_Interfile_API\\Pab_Interfile_API\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Pab_Interfile_API\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Pab_Interfile_API\\Pab_Interfile_API\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Pab_Interfile_API\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T03:07:34.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Pab_Interfile_API\\Pab_Interfile_API\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "Pab_Interfile_API\\Models\\Produto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Pab_Interfile_API\\Pab_Interfile_API\\Models\\Produto.cs",
+              "RelativeToolTip": "Pab_Interfile_API\\Models\\Produto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T03:05:18.228Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

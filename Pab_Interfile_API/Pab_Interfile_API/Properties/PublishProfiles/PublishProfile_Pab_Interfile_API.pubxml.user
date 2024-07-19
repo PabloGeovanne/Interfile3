@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\PUBLICAR\Pab_Interfile_API</_PublishTargetUrl>
+    <History>True|2024-07-18T04:03:23.4924893Z||;True|2024-07-18T01:02:31.0530707-03:00||;True|2024-07-18T01:01:41.4962536-03:00||;True|2024-07-18T01:01:29.5725638-03:00||;False|2024-07-18T00:58:58.2351037-03:00||;False|2024-07-18T00:58:44.0449026-03:00||;True|2024-07-18T00:56:55.9981027-03:00||;True|2024-07-18T00:41:58.6459267-03:00||;True|2024-07-17T23:56:35.9469431-03:00||;True|2024-07-17T23:51:49.4374271-03:00||;True|2024-07-17T23:51:21.0156369-03:00||;True|2024-07-17T01:09:48.4765207-03:00||;True|2024-07-17T01:08:38.2745045-03:00||;True|2024-07-17T00:53:27.1736591-03:00||;True|2024-07-17T00:25:45.0035881-03:00||;True|2024-07-16T23:05:21.8478904-03:00||;True|2024-07-16T23:03:50.5859695-03:00||;</History>
+    <LastFailureDetails />
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="contato.html">
+      <publishTime>07/17/2024 00:49:10</publishTime>
+    </File>
+    <File Include="licenca.html">
+      <publishTime>07/17/2024 00:50:24</publishTime>
+    </File>
+    <File Include="termos.html">
+      <publishTime>07/17/2024 00:47:49</publishTime>
+    </File>
+  </ItemGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>server= DESKTOP-N0KOGGT%3b database=INTERFILE_DB%3b Trusted_Connection=True%3bIntegrated Security=True%3bEncrypt=False%3bTrust Server Certificate=True</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Pab_Interfile_API.Data.ApplicationDbContext">
+      <Value>server= DESKTOP-N0KOGGT%3b database=INTERFILE_DB%3b Trusted_Connection=True%3bIntegrated Security=True%3bEncrypt=False%3bTrust Server Certificate=True</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
