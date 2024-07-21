@@ -13,6 +13,10 @@
             <li>API: <a href="http://api.interfile.local/index.html">http://api.interfile.local/index.html</a></li>
             <li>HTML: <a href="http://html.interfile.local/index.html">http://html.interfile.local/index.html</a></li>
         </ul>
+        <strong>URI:</strong> A URI da aplicação precisara ser ajustadas conforme abaixo:
+        <ul>
+            <li>HTML: <a href="http://html.interfile.local/index.html">http://html.interfile.local/index.html</a></li>
+        </ul>
     </li>
 </ul>
 <p>Foi criada uma hospedagem local para simulação das URIs de requisição.</p>
