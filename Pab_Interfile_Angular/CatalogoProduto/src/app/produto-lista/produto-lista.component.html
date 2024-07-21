@@ -1,0 +1,8 @@
+<h2>Lista de Produto!</h2>
+
+<ul>
+    <li *ngFor="let produto of produtos">
+        {{ produto.ds_Nome }} - {{ produto.vl_Preco | currency }}
+        <button (click)="deletarProduto(produto.Id)">Excluir</button>
+    </li>
+</ul>
