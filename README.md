@@ -11,7 +11,6 @@
         <strong>URIs de Endpoints:</strong> As URIs dos endpoints precisarão ser ajustadas conforme abaixo:
         <ul>
             <li>API: <a href="http://api.interfile.local/index.html">http://api.interfile.local/index.html</a></li>
-            <li>HTML: <a href="http://html.interfile.local/index.html">http://html.interfile.local/index.html</a></li>
         </ul>
         <strong>URI:</strong> A URI da aplicação precisara ser ajustadas conforme abaixo:
         <ul>
