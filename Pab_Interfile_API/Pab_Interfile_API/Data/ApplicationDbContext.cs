@@ -8,5 +8,7 @@ namespace Pab_Interfile_API.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
         public DbSet<Produto> Produtos { get; set; }
+
+        public DbSet<Pessoa> Pessoas { get; set; }
     }
 }

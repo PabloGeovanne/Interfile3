@@ -55,3 +55,36 @@ GO
 COMMIT;
 GO
 
+BEGIN TRANSACTION;
+GO
+
+IF NOT EXISTS (
+    SELECT * FROM [__EFMigrationsHistory]
+    WHERE [MigrationId] = N'20240719115726_Pessoa'
+)
+BEGIN
+    CREATE TABLE [Pessoas] (
+        [Id] int NOT NULL IDENTITY,
+        [ds_Nome] nvarchar(max) NOT NULL,
+        [dt_Nascimento] datetime2 NOT NULL,
+        [vl_Renda] float NOT NULL,
+        [ds_Cpf] nvarchar(max) NOT NULL,
+        [ds_pw] nvarchar(max) NOT NULL,
+        CONSTRAINT [PK_Pessoas] PRIMARY KEY ([Id])
+    );
+END;
+GO
+
+IF NOT EXISTS (
+    SELECT * FROM [__EFMigrationsHistory]
+    WHERE [MigrationId] = N'20240719115726_Pessoa'
+)
+BEGIN
+    INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+    VALUES (N'20240719115726_Pessoa', N'8.0.7');
+END;
+GO
+
+COMMIT;
+GO
+

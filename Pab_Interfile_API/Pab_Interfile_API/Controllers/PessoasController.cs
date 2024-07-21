@@ -12,60 +12,60 @@ namespace Pab_Interfile_API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProdutosController : ControllerBase
+    public class PessoasController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
-        public ProdutosController(ApplicationDbContext context)
+        public PessoasController(ApplicationDbContext context)
         {
             _context = context;
         }
 
         //[Authorize]
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Produto>>> GetProduto()
+        public async Task<ActionResult<IEnumerable<Pessoa>>> GetPessoa()
         {
-            return Ok(await _context.Produtos.ToListAsync());
+            return Ok(await _context.Pessoas.ToListAsync());
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Produto>> GetProduto(int id)
+        public async Task<ActionResult<Pessoa>> GetPessoa(int id)
         {
-            var produto = await _context.Produtos.FindAsync(id);
+            var pessoa = await _context.Pessoas.FindAsync(id);
 
-            if (produto == null)
+            if (pessoa == null)
             {
                 return NotFound();
             }
 
-            return Ok(produto);
+            return Ok(pessoa);
         }
 
         [HttpPost]
-        public async Task<ActionResult<Produto>> PostProduto(Produto produto)
+        public async Task<ActionResult<Pessoa>> PostPessoa(Pessoa pessoa)
         {
-            _context.Produtos.Add(produto);
+            _context.Pessoas.Add(pessoa);
             await _context.SaveChangesAsync();
 
-            return Ok(CreatedAtAction("GetProduto", new { id = produto.Id }, produto));
+            return Ok(CreatedAtAction("GetPessoa", new { id = pessoa.Id }, pessoa));
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutProduto(int id, Produto produto)
+        public async Task<IActionResult> PutPessoa(int id, Pessoa pessoa)
         {
-            if (id != produto.Id)
+            if (id != pessoa.Id)
             {
                 return BadRequest();
             }
 
-            _context.Entry(produto).State = EntityState.Modified;
+            _context.Entry(pessoa).State = EntityState.Modified;
 
             try
             {
                 await _context.SaveChangesAsync();
             }
-            catch(DbUpdateConcurrencyException)
+            catch (DbUpdateConcurrencyException)
             {
-                if (!ProdutoExiste(id))
+                if (!PessoaExiste(id))
                 {
                     return NotFound();
                 }
@@ -79,25 +79,25 @@ namespace Pab_Interfile_API.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteProduto(int id)
+        public async Task<IActionResult> DeletePessoa(int id)
         {
-            var produto = await _context.Produtos.FindAsync(id);
+            var pessoa = await _context.Pessoas.FindAsync(id);
 
-            if (produto == null)
+            if (pessoa == null)
             {
                 return NotFound();
             }
 
-            _context.Produtos.Remove(produto);
+            _context.Pessoas.Remove(pessoa);
 
             await _context.SaveChangesAsync();
 
             return NoContent();
 
         }
-        private bool ProdutoExiste(int id)
+        private bool PessoaExiste(int id)
         {
-            return _context.Produtos.Any(e => e.Id == id);
+            return _context.Pessoas.Any(e => e.Id == id);
         }
     }
 }

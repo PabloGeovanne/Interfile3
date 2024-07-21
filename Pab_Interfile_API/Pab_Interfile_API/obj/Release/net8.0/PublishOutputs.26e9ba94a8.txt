@@ -7,6 +7,7 @@ C:\Users\User\source\repos\Pab_Interfile_API\Pab_Interfile_API\obj\Release\net8.
 C:\Users\User\source\repos\Pab_Interfile_API\Pab_Interfile_API\obj\Release\net8.0\PubTmp\Out\Azure.Core.dll
 C:\Users\User\source\repos\Pab_Interfile_API\Pab_Interfile_API\obj\Release\net8.0\PubTmp\Out\Azure.Identity.dll
 C:\Users\User\source\repos\Pab_Interfile_API\Pab_Interfile_API\obj\Release\net8.0\PubTmp\Out\Humanizer.dll
+C:\Users\User\source\repos\Pab_Interfile_API\Pab_Interfile_API\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\User\source\repos\Pab_Interfile_API\Pab_Interfile_API\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\User\source\repos\Pab_Interfile_API\Pab_Interfile_API\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\User\source\repos\Pab_Interfile_API\Pab_Interfile_API\obj\Release\net8.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
